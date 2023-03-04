@@ -24,8 +24,8 @@ public class WeaponClip {
 
     public boolean isLoaded() {
         return weaponClip.size() >= 1;
-        //return !weaponClip.isEmpty() // dla Deque
         //return !weaponClip.empty(); // dla Stack
+        //return !weaponClip.isEmpty() // dla Deque
     }
 
     public void shot() {
