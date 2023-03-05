@@ -22,5 +22,11 @@ public class Task9 {
         System.out.println(circle.getRadius());
         System.out.println(circle.getPerimeter());
         System.out.println(circle.getArea());
+
+        System.out.println("After resize");
+        circle.resize(2);
+        System.out.println(circle.getRadius());
+        System.out.println(circle.getPerimeter());
+        System.out.println(circle.getArea());
     }
 }

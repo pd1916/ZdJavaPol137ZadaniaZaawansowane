@@ -30,7 +30,10 @@ public class Task12 {
         //System.out.println("getCarsProducedBefore1999: " + carService.getCarsProducedBefore1999());
         //System.out.println("getMostExpensiveCar: " + carService.getMostExpensiveCar());
         //System.out.println("getCarsWithMoreThan2Manufacturers: " + carService.getCarsWithMoreThan2Manufacturers());
-        System.out.println("getCarsProducedBy: " + carService.getCarsProducedBy(fiat));
+        //System.out.println("getCarsProducedBy: " + carService.getCarsProducedBy(fiat));
+        //System.out.println("getCheapestCar: " + carService.getCheapestCar());
+        //System.out.println("getCarsSortedByName: " + carService.getCarsSortedByName(true));
+        System.out.println("getCarsFoundedInAndProducedBy: " + carService.getCarsFoundedIn(1905, Operation.GREATER_THAN));
 
 //        List<Car> returnedListOfCars = carService.getAll();
 //        System.out.println(returnedListOfCars);
