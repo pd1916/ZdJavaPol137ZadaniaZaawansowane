@@ -27,6 +27,7 @@ public class Task12 {
         carService.add(xc60_2);
 
         System.out.println("getCarsWithV12Engine: " + carService.getCarsWithV12Engine());
+        System.out.println("getCarsProducedBefore1999: " + carService.getCarsProducedBefore1999());
 
 //        List<Car> returnedListOfCars = carService.getAll();
 //        System.out.println(returnedListOfCars);

@@ -25,4 +25,10 @@ public class CarService {
                 .filter(car -> car.getEngineType().equals(EngineType.V12))
                 .toList();
     }
+
+    public List<Car> getCarsProducedBefore1999() {
+        return cars.stream()
+                .filter(car -> car.getProductionYear() < 1999)
+                .toList();
+    }
 }
