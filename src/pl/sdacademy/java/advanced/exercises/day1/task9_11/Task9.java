@@ -2,8 +2,8 @@ package pl.sdacademy.java.advanced.exercises.day1.task9_11;
 
 public class Task9 {
     public static void main(String[] args) {
-        Point2D center = new Point2D(0 ,0);
-        Point2D point = new Point2D(0,3);
+        Point2D center = new Point2D(0, 0);
+        Point2D point = new Point2D(0, 3);
         Circle circle = new Circle(center, point);
 
         System.out.println("Before move");

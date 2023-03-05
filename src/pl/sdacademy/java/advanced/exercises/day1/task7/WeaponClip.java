@@ -2,7 +2,6 @@ package pl.sdacademy.java.advanced.exercises.day1.task7;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
-import java.util.Stack;
 
 public class WeaponClip {
     // LIFO -> last input, first output -> np Stack, Deque
@@ -16,7 +15,7 @@ public class WeaponClip {
     }
 
     public void loadBullet(String bullet) {
-        if(maxNumberOfBulletInClip  == weaponClip.size()) {
+        if(maxNumberOfBulletInClip == weaponClip.size()) {
             throw new IllegalArgumentException("Clip is fill");
         }
         weaponClip.push(bullet);

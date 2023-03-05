@@ -3,7 +3,7 @@ package pl.sdacademy.java.advanced.exercises.day2.task_20_21_22;
 public class Main {
 
     public static void main(String[] args) {
-        Shape rectangle = new Rectangle(2 ,3);
+        Shape rectangle = new Rectangle(2, 3);
         int rectanglePerimeter = rectangle.calculatePerimeter();
         System.out.println("rectanglePerimeter: " + rectanglePerimeter);
 

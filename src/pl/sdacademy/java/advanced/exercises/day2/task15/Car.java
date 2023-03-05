@@ -8,7 +8,7 @@ public enum Car {
     MERCEDES(90, 80),
     BMW(89, 90),
     OPEL(70, 70),
-    FIAT(50,50),
+    FIAT(50, 50),
     TOYOTA(60, 55);
 
     private final double price;

@@ -19,7 +19,7 @@ public class Task3 {
     private static void print(Map<String, Integer> input) {
         int i = 1;
         for(Map.Entry<String, Integer> entry : input.entrySet()) {
-            if( i == input.size()) {
+            if(i == input.size()) {
                 System.out.println("Klucz: " + entry.getKey() + ", Wartość: " + entry.getValue() + ".");
             } else {
                 System.out.println("Klucz: " + entry.getKey() + ", Wartość: " + entry.getValue() + ",");

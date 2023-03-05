@@ -51,7 +51,7 @@ public class CarService {
     }
 
     public List<Car> getCarsSortedByName(boolean ascending) {
-        if (ascending) {
+        if(ascending) {
             return cars.stream()
                     .sorted(Comparator.comparing(Car::getName))
                     .collect(Collectors.toList());
@@ -73,7 +73,7 @@ public class CarService {
     }
 
     public List<Car> getCarsFoundedIn(int foundedYear, Operation operation) {
-        switch (operation) {
+        switch(operation) {
             case GREATER_THAN:
                 return cars.stream()
                         .filter(car -> car.getManufacturers().stream()

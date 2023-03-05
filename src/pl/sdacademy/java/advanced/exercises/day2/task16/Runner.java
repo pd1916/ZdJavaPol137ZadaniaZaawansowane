@@ -1,7 +1,6 @@
 package pl.sdacademy.java.advanced.exercises.day2.task16;
 
 import java.util.Arrays;
-import java.util.Optional;
 
 public enum Runner {
     BEGINNER(1024, Integer.MAX_VALUE),

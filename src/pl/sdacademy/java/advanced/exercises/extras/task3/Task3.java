@@ -17,7 +17,7 @@ public class Task3 {
     public static List<Product> pointB(List<Product> products) {
         return products.stream()
                 .filter(p -> p.getCategory().equals("Computer"))
-                .map(p -> new Product(p.getId(), p.getName(), p.getCategory(), p.getPrice()*0.8))
+                .map(p -> new Product(p.getId(), p.getName(), p.getCategory(), p.getPrice() * 0.8))
                 .collect(Collectors.toList());
     }
 

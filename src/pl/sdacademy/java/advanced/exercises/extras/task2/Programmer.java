@@ -22,8 +22,8 @@ public class Programmer {
 
     @Override
     public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
+        if(this == o) return true;
+        if(o == null || getClass() != o.getClass()) return false;
         Programmer that = (Programmer) o;
         return Objects.equals(person, that.person) && Objects.equals(programmingLanguages, that.programmingLanguages);
     }

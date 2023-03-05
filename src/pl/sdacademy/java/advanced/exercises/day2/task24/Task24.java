@@ -27,9 +27,9 @@ public class Task24 {
         basket.removeFromBasket();
         try {
             basket.removeFromBasket();
-        } catch (BasketEmptyException ex) {
+        } catch(BasketEmptyException ex) {
             System.out.println("jestem z BasketEmptyException");
-        } catch (RuntimeException ex) {
+        } catch(RuntimeException ex) {
             System.out.println("jestem z RuntimeException");
         }
         System.out.println();
