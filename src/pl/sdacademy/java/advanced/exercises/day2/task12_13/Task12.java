@@ -20,18 +20,23 @@ public class Task12 {
         CarService carService = new CarService();
         carService.add(x500);
         carService.add(gls_1);
-
-        List<Car> returnedListOfCars = carService.getAll();
-        System.out.println(returnedListOfCars);
-        System.out.println(returnedListOfCars.size());
-
+        carService.add(gls_2);
         carService.add(xc90_1);
+        carService.add(xc90_2);
+        carService.add(xc60_1);
+        carService.add(xc60_2);
 
-        System.out.println(returnedListOfCars);
-        System.out.println(returnedListOfCars.size());
+        System.out.println("getCarsWithV12Engine: " + carService.getCarsWithV12Engine());
 
-        returnedListOfCars.clear();
-
-        System.out.println();
+//        List<Car> returnedListOfCars = carService.getAll();
+//        System.out.println(returnedListOfCars);
+//        System.out.println(returnedListOfCars.size());
+//
+//        carService.add(xc90_1);
+//
+//        System.out.println(returnedListOfCars);
+//        System.out.println(returnedListOfCars.size());
+//
+//        returnedListOfCars.clear();
     }
 }

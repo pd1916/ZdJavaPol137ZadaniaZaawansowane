@@ -19,4 +19,10 @@ public class CarService {
         //return List.copyOf(cars); // tworzy niemodyfikowalną listę
         return new ArrayList<>(cars); // tworzy modyfikowalną listę
     }
+
+    public List<Car> getCarsWithV12Engine() {
+        return cars.stream()
+                .filter(car -> car.getEngineType().equals(EngineType.V12))
+                .toList();
+    }
 }
