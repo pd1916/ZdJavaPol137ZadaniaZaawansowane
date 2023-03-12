@@ -10,7 +10,7 @@ import java.util.stream.Stream;
 public class ImageFinder {
 
     public static List<String> find(Path directory) {
-        try (Stream<Path> walk = Files.walk(directory)) {
+        try(Stream<Path> walk = Files.walk(directory)) {
             return walk
                     .map(path -> path.toFile().getName())
                     .filter(name -> name.endsWith(".png") || name.endsWith(".jpg"))

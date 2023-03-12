@@ -1,6 +1,6 @@
 package pl.sdacademy.java.advanced.exercises.day3.task36;
 
-public class ThreadPlaygroundRunnable implements Runnable{
+public class ThreadPlaygroundRunnable implements Runnable {
     private final String name;
 
     public ThreadPlaygroundRunnable(String name) {

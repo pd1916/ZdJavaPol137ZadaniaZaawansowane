@@ -1,6 +1,5 @@
 package pl.sdacademy.java.advanced.exercises;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class Varargs {

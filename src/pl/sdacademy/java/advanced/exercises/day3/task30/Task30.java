@@ -26,7 +26,7 @@ public class Task30 {
     }
 
     private static List<String> getFileContent(Path inputFile) throws IOException {
-         return Files.readAllLines(inputFile);
+        return Files.readAllLines(inputFile);
     }
 
     private static List<String> reverseFileContent(List<String> content) {

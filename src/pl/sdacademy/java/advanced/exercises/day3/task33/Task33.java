@@ -1,6 +1,5 @@
 package pl.sdacademy.java.advanced.exercises.day3.task33;
 
-import java.io.IOException;
 import java.nio.file.Path;
 import java.util.List;
 

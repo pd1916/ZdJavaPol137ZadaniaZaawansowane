@@ -2,7 +2,6 @@ package pl.sdacademy.java.advanced.exercises.day3.task37;
 
 import pl.sdacademy.java.advanced.exercises.day3.task36.ThreadPlaygroundRunnable;
 
-import java.util.concurrent.Executor;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
